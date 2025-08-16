@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="static/style/style.css">
+</head>
+
+<body>
+<!--NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><strong> GamingZone </strong> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link active" aria-current="page" href="home.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Explorar Juegos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Perfil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Login</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+<!--LOGIN-->
+    <main>
+        <div class="LoginUsuario">
+            <label for="usuarioInput" class="form-label">Usuario</label>
+            <input type="text" id="usuarioInput" class="form-control" 
+            aria-describedby="passwordHelpBlock"
+            placeholder="Ingresa tu usuario gamer">
+
+            <label for="passwordInput" class="form-label">Contraseña</label>
+            <input type="password" id="passwordInput" class="form-control" 
+            aria-describedby="passwordHelpBlock"
+            placeholder="Ingresa tu contraseña">
+        </div>
+        <button type="button" class="btn btn-success">Ir a jugar!</button>
+    </main>
