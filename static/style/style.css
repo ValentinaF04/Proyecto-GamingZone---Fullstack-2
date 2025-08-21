@@ -1,0 +1,47 @@
+.bg-custom{
+    background-color: rgba(255, 0, 0, 0.432);
+    width: 100%;
+}
+
+body{
+    background-image: url('../img/carl-raw-m3hn2Kn5Bns-unsplash.jpg');
+    background-size: cover;
+}
+
+h2{
+    background-color: rgba(255, 255, 255, 0.459);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.459) ;
+    margin: auto;
+    width: 95%;
+    padding: 15px;
+}
+
+.content-boxes-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px 0;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1; 
+    text-align: center;
+    border: 2px solid #00ffc8;
+    color: #e0e0e0; 
+}
+
+.box h3 {
+    color: #ff33c1; 
+    margin-top: 0; 
+}
